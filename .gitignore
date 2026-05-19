@@ -1,0 +1,49 @@
+# dependencies
+node_modules
+
+# builds
+dist
+build
+.next
+out
+
+# logs
+logs
+*.log
+pnpm-debug.log*
+
+# environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# editors
+.vscode
+.idea
+
+# testing
+coverage
+
+# turborepo
+.turbo
+
+# TypeScript
+*.tsbuildinfo
+
+# misc
+tmp
+temp
+
+# package managers
+package-lock.json
+yarn.lock
+
+# local database
+*.sqlite
+*.db
+postgres-data
